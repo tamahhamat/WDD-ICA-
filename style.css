@@ -50,20 +50,6 @@ header {
 }
 
 
-/* header::before {
-    content: "";
-    background-image: url(media/Logo.PNG);
-    background-repeat: no-repeat;
-    background-position: top;
-    position: absolute;
-    top: 25px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-
-} */
-
 header::before {
     content: "";
     background-image: url(media/music.jpg);
@@ -83,6 +69,11 @@ header::before {
     will-change: transform;*/
     z-index: -1; 
 }
+
+/* h1>img {
+    bottom: 10rem;
+} */
+
 /* 
 
 @keyframes hero {
@@ -162,26 +153,23 @@ ul {
 }
 
 h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
     text-align: top; 
     line-height: 1;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     margin-bottom: 25rem;
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 250px;
+    padding-top: 100px;
     letter-spacing: -2px;
     transition: var(--time);
     /* text-shadow: 0 0 5px rgb(82, 80, 80); */
-    /* background-image: url(media/Logo.PNG); */
-    background-size: 5rem;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-image: url(media/namecrop1.jpg); */
+    /* background-size */
 
-   
-   
 }
+
 
 h1>span:first-child {
     display: block;
@@ -213,6 +201,10 @@ h1>span:last-child {
     }
 }
 
+#links {
+    margin-bottom: 5rem;
+
+}
 
 .fa {
     padding: 20px;
@@ -419,6 +411,14 @@ h2 {
     max-width: 50%;    
 }
 
+#contact {
+    /* text-align: left; */
+    justify-content: center;
+    font-size: 16px;
+    margin: 0 auto 0 auto;
+    color: rgb(37, 36, 36);
+    max-width: 50%;    
+}
 
 
 footer {
