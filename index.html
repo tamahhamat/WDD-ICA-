@@ -9,10 +9,10 @@
     <nav id=nav>
         <ul>
             <li><a href="#albums">Albums</a></li>
-            <li><a href="upcoming">Upcoming</a></li>
-            <li><a href="music">Music</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#upcoming">Upcoming</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <div id=ham>
@@ -37,6 +37,11 @@
 <main>
 
     <section id=albums>
+        <h2>Click Album to Purchase</h2>
+        <p>Want to hear more? Check out Petr Bakla's Spotify</p>
+        <div class="socialmediaicons socialmediaicons2" id="links">
+        <a href="javascript:void(0)" class="fa fa-spotify"></a>
+        </div>
         <div id="grid" class="images">
             <div><a href= ""><img class="image0" src="media/Bakla_island front.jpg"></a></div>
             <div><a href= ""><img class="image1" src="media/cd kvintet front.jpg"></a></div>
@@ -80,26 +85,30 @@
 
     <section id=music>
         <h2>Music</h2>
-        <div id="video1">
-            <iframe width="560" height="315" 
+        <div class="videos">
+            <iframe id="vid1" width="560" height="315" 
             src="https://www.youtube.com/embed/MuYFxpAoCzo" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
-        </div>
 
-        <div id="video2">
-            <iframe width="560" height="315" 
+            <iframe id="vid2" width="560" height="315" 
             src="https://www.youtube.com/embed/GbBS0vCYT_s" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
         </div>
+        <p> To hear more of Petr Bakla's music or download the sheet music please visit: </p>
+        <p><a href="http://www.petrbakla.com/works.html">Petr Balka's Works</a></p>
+      
+
+
     </section>
 
     
     <section id=about>
-        <img src="media\petr_bakla_portrait.jpg">
+        <img src="media/border.jpg" id="img1">
+        <img id="img2" src="media\petr_bakla_portrait.jpg">
         <div id="EN">
             <h2>About Petr Bakla</h2>
             <p>EN</p>
@@ -124,28 +133,6 @@
             </div>
             <br>
             
-        <div id="CZ"> 
-            <p>CZ</p>
-            <p> Petr Bakla se narodil v roce 1980 v Praze. Ve svých skladbách často využívá základních, 
-            schematizovaných hudebních útvarů, zejména chromatické a celotónové stupnice. Zajímají ho 
-            situace a souvislosti, v nichž tento úsporný materiál nabývá zvláštní expresivity a energie. 
-            Obvyklým rysem Baklových skladeb je také práce se simultánním průběhem dvou zvukových vrstev, 
-            které, ač zpravidla dynamicky výrazně odlišené na způsob "figury a pozadí", nejsou ve vztahu 
-            vzájemné podřízenosti – jsou rovnocenně důležité a společně generují specifické napětí a 
-            pocit nejednoznačnosti.</p>
-            <br>
-            <p>Baklovy skladby byly uvedeny v ČR, Německu, Rakousku, Švýcarsku, Španělsku, Itálii, Francii, 
-            Polsku, Nizozemí, USA (New York, Boston, San Diego ad.), v Arménii či na Ukrajině, 
-            často v podání renomovaných interpretů a na jejich objednávku. Zvláštní důležitost má 
-            spolupráce s Ostravským centrem nové hudby.</p>
-            <br>
-            <p>Petr Bakla studoval na Akademii múzických umění v Praze, zúčastnil se skladatelských kurzů 
-            a workshopů doma i v zahraničí, byla mu udělena stipendia a tvůrčí pobyty.
-            Je samoukem.</p>
-            <br>
-            <p>Magisterská diplomka K melodickému aspektu soudobé hudby
-            (jen česky, anglický abstrakt)</p>
-            </div>
     </section>
 
 
@@ -157,8 +144,8 @@
         <p>mobile:
             +420 724 150 109</p>
             
-        <p>Please don´t hesitate asking me for recordings
-            that are not available for listening online!</p>
+        <p>Please contact me for recordings
+            that are not available online!</p>
             
         <p>Special thanks to Ditta Jiřičková for the čenich.</p>
     </section>
